@@ -1,6 +1,6 @@
 <style>
   body {
-    background-color: Gainsboro;
+    background-color: WhiteSmoke;
   }
   h1 {
     color: red;
