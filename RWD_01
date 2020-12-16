@@ -3,45 +3,57 @@
     background-color: Gainsboro;
   }
   #title {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    font-family: Sans-serif;
-  }
-  #tribute-info {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  #tribute-link {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  #title-info {
-    text-align: center;
-  }
-  #image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-  }
-  #img-caption {
-    text-align: center;
-    font-size: 19px;
-  }
-  #img-div {
-    background-color: white;
-  }
-  #history {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  li {
-    text-align: center;
-  }
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Sans-serif;
+}
+/*#tribute-info {
+  font-weight: bold;
+  font-size: 20px;
+}*/
+#tribute-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+#title-info {
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#img-caption {
+  text-align: center;
+  font-size: 19px;
+}
+#img-div {
+  background-color: white;
+}
+#history {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+li {
+  margin: 16px 0;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
 </style>
 <body>
   <div id="main">
