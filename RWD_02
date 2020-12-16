@@ -1,14 +1,55 @@
 <style>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  :root {
+    --color-white: #f3f3f3;
+  }
   body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
     background-image: linear-gradient(
-      115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)
-    ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    color: white;
+  }
+
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
   }
   #title {
     text-align: center;
@@ -19,7 +60,7 @@
   .button {
     background-color: #4CAF50;
     color: white;
-    width: 600px;
+    width: 100%;
     height: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -29,12 +70,23 @@
     opacity: 0.9;
     padding-top: 20px;
     padding-left: 40px;
+    padding-right: 20px;
     border: 0;
     width: 650px;
     margin: auto;
   }
+  #name, 
+  #email, 
+  #number, 
+  #dropdown {
+    width: 100%;
+  }
+  input {
+    line-height: 1.2;
+  }
 </style>
 <body>
+<div class="container">
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">
     <em>Thank you for taking the time to help us improve the platform</em></p>
@@ -86,8 +138,9 @@
         <input type="checkbox" id="cb11" name="cb11" value="cb11">
         <label for="cb11">Additional Courses</label>
       <h3>Any comments or suggestions?</h3>
-        <textarea style="width:600px;height:110px;" placeholder="Enter your comment here..."></textarea><br>
+        <textarea style="width:100%;height:110px;" placeholder="Enter your comment here..."></textarea><br>
       <button type="submit" class="button" id="submit">Submit</button>
     </fieldset>
   </form>
+</div>
 </body>
