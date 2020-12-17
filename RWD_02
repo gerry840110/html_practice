@@ -84,6 +84,14 @@
   input {
     line-height: 1.2;
   }
+  #name-label,
+  #email-label,
+  #number-label {
+    font-weight: bold;
+    display: flex;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
 </style>
 <body>
 <div class="container">
@@ -92,11 +100,11 @@
     <em>Thank you for taking the time to help us improve the platform</em></p>
   <form id="survey-form">
     <fieldset>
-      <h3>Name</h3>
+      <label id="name-label" for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
-      <h3>Email</h3>
+      <label id="email-label" for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your Email" required>
-      <h3>Age(optional)</h3>
+      <label id="number-label" for="number">Age(optional)</label>
         <input type="number" id="number" name="number" min="10" max="99" placeholder="Age" required>
       <h3>Which option best describes your current role?</h3>
         <select id="dropdown" name=dropdown required>
