@@ -1,6 +1,8 @@
 <style>
+  @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
   body {
     background-color: Gainsboro;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #title {
   font-size: 40px;
@@ -8,10 +10,9 @@
   text-align: center;
   font-family: Sans-serif;
 }
-/*#tribute-info {
-  font-weight: bold;
-  font-size: 20px;
-}*/
+  p {
+    font-size: 19px;
+  }
 #tribute-link {
   font-weight: bold;
   font-size: 20px;
@@ -54,44 +55,48 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+  h3 {
+    text-align: center;
+  }
 </style>
 <body>
   <div id="main">
-    <h1 id="title">Dr. Norman Borlaug</h1>
-    <p id="title-info">The man who saved a billion lives</p>
+    <h1 id="title">滷肉飯</h1>
+    <p id="title-info">台灣一道經典的傳統小吃</p>
       <figure id="img-div">
-        <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists" id="image"/>
-        <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.         </figcaption>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Lurou_fan_by_udono_in_Tamsui%2C_Taipei.jpg" id="image"/>
+        <figcaption id="img-caption">滷肉飯的特色和製作的關鍵部分在於肉醬和肉汁，在台南、台中、台北的製作方法和特點均有差異。         </figcaption>
       </figure>
       <section id="tribute-info">
-        <h3 id="history">Here's a time line of Dr. Borlaug's life:</h3>
+        <h3 id="history">滷肉飯的做法：</h3>
         <ul>
-          <li><strong>1914</strong> - Born in Cresco, Iowa</li>
-          <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
-          <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
-          <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
-          <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
-          <li><strong>1941</strong> - Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li>
-          <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li>
-          <li><strong>1944</strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease resistent wheat - including different varieties for each major climate on Earth.</li>
-          <li><strong>1945</strong> - Discovers a way to grown wheat twice each season, doubling wheat yields</li>
-          <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li>
-          <li><strong>1962</strong> - Visits Delhi and brings his high-yielding strains of wheat to the Indian subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li>
-          <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
-          <li><strong>1983</strong> - helps seven African countries dramatically increase their maize and sorghum yields</li>
-          <li><strong>1984</strong> - becomes a distinguished professor at Texas A&M University</li>
-          <li><strong>2005</strong> - states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li>
-          <li><strong>2009</strong> - dies at the age of 95.</li>
+          <li><strong>1.</strong> 買一條好的五花肉並切成條狀。</li>
+          <li><strong>2.</strong> 將鍋子預熱，鍋熱後倒入一點點油潤鍋，再將豬肉放入鍋中煎至焦香。</li>
+          <p style="color: red">煸肉的動作很重要，要做確實，煸得不夠，無法產生美味的焦香。</p>
+          <li><strong>3.</strong> 在起一鍋，冷鍋倒入沖繩黑糖和一點點水，煮成焦糖(分量不要超過10g)。</li>
+          <p style="color: red">用小火慢慢煮，避免噴的到處都是，黑糖要煮到冒泡，徹底焦糖化才算完成。</p>
+          <li><strong>4.</strong> 煎出焦香後，淋上沖繩黑糖，豬肉馬上油油亮亮，這樣就算成功一半。</li>
+          <li><strong>5.</strong> 此時，接著加入醬油。
+            <p style="color: red">醬油要先嘗嘗味道是否為自己喜歡的味道，醬油是否為偏鹹口感。如果偏鹹，要調整水的比例。</p></li>
+          <li><strong>6.</strong> 確實的拌炒均勻。每塊肉閃閃發亮。</li>
+          <li><strong>7.</strong> 加入蒜頭、八角。<p style="color: red">如果滷1斤的話，還是維持1顆，八角味道很強烈。</p></li>
+          <li><strong>8.</strong> 倒入一些清酒。適量就好。通常我會加入50ml，20-50ml的份量都OK。
+            <p style="color: red">用大火將酒精燒掉。大概燒3分鐘左右。</p></li>
+          <li><srtong>9.</strong> 等酒精燒的差不多時候，原來裝醬油的量杯，裝入比醬油多4倍的水 (能熱水更好)</li>
+          <li><srtong>10.</strong> 另外準備好 白胡椒粒，花椒，茴香籽(Fennel seed)。</li>
+          <li><srtong>11.</strong> 把這些香料種子都裝進茶包袋裡面，才不會到處跑。香料包盡量放在湯汁裡，這樣才能煮出味道。(大概用中火煮約3分鐘)</li>
+          <li><srtong>12.</strong> 蓋上蓋子，小火燉煮30分鐘後，關火。(悶上4小時左右)</li>
+          <li><strong>13.</strong> 開蓋，再度開火，收一點汁，讓醬汁濃稠一點，大約是原來的一半。</li>
+          
+          
         </ul>
         <blockquote>
-          <p>"Borlaug's life and achievement are testimony to the far-reaching
-        contribution that one man's towering intellect, persistence and
-            scientific vision can make to human peace and progress."</p>
+          <p>滷肉飯在南北有不同的意義。在北臺灣，滷肉飯為一種淋上含有煮熟碎豬肉或炒香肉燥（豬絞肉）及醬油滷汁的白飯菜餚；在南臺灣，是指有著滷汁塊狀肉的切丁滷肉飯，有些店家搭配筍乾醃蘿蔔乾。南台灣的肉燥飯通常是以肥瘦一定比例的豬絞肉滷製，但北台灣的滷肉飯通常用含有豬皮的肥肉切丁滷製，兩者的口感和口味略有不同。</p>
         </blockquote>
     </div>
 </body>
 <footer>
-        <h3>If you have time, you should read more about this incredible human being on his 
-          <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry.</a>
+        <h3>如果你有空想了解更多關於滷肉飯的事情，可以去看
+          <a id="tribute-link" href="https://zh.wikipedia.org/wiki/%E6%BB%B7%E8%82%89%E9%A3%AF" target="_blank">Wikipedia(維基百科)</a>
         </h3>
 </footer>
